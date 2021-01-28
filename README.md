@@ -10,7 +10,7 @@ IOS xcode webview offline html pages
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "Lecoxenweb")!
+        let url = Bundle.main.url(forResource: "page index name", withExtension: "html", subdirectory: "Folder_name")!
         webviews.loadFileURL(url, allowingReadAccessTo: url)
         let request = URLRequest(url: url)
       webviews.load(request)
